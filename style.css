@@ -1,0 +1,24 @@
+body{
+    background-color: #000;
+}
+
+path{
+    filter: #e81818;
+    stroke: #5ab219;
+    stroke-dasharray: 1200;
+    animation: myanim 3s infinite;
+}
+
+@keyframes myanim {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    
+    50% {
+        stroke-dashoffset: 1200;
+    }
+    
+    100% {
+        0
+    }
+}
